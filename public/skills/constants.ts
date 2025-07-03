@@ -69,15 +69,6 @@ export const PROJECTS: IProject[] = [
     tech: ["angular", "tailwind", "Python","figma"],
   },
   {
-    name: "CNL Gaming",
-    image: "/projects/CNL.jpg",
-    blurImage: "/projects/blur/myokr-blur.jpg",
-    description: "CNL Gaming is an e-commerce platform for buying and selling games, game codes, and gaming accounts.",
-    gradient: ["#153BB9", "#0E2C8B"],
-    url: "https://cnlgaming.com/",
-    tech: ["PHP","tailwind", "figma"],
-  },
-  {
     name: "Secretswingerlust",
     image: "/projects/SSL.png",
     blurImage: "/projects/blur/dlt-website-blur.jpg",

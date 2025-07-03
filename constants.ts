@@ -68,15 +68,7 @@ export const PROJECTS: IProject[] = [
     url: "https://nextpro.io/market-research",
     tech: ["angular", "tailwind", "Python","figma"],
   },
-  {
-    name: "CNL Gaming",
-    image: "/projects/CNL.jpg",
-    blurImage: "/projects/blur/myokr-blur.jpg",
-    description: "CNL Gaming is an e-commerce platform for buying and selling games, game codes, and gaming accounts.",
-    gradient: ["#153BB9", "#0E2C8B"],
-    url: "https://cnlgaming.com/",
-    tech: ["PHP","tailwind", "figma"],
-  },
+  
   {
     name: "Secretswingerlust",
     image: "/projects/SSL.png",
@@ -155,15 +147,6 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     subtitle:
       "I work as a Frontend Developer, building B2B e-commerce marketplace connecting bulk buyers and sellers with streamlined bidding and quoting.",
     slideImage: "/timeline/nextpro.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "CNL Gaming",
-    size: ItemSize.SMALL,
-    subtitle: "I work as a Frontend Developer, building an e-commerce platform for buying and selling games, game codes, and gaming accounts.",
-    slideImage: "/timeline/CNL.jpg",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
